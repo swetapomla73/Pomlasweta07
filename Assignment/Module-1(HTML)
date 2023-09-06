@@ -1,0 +1,146 @@
+1. ARE the HTML tags and elements the same thing?
+===> HTML Tags are building blocks of HTML Page. They tell the browser how it should display content to the user.
+===> A tag starts with a < bracket and ends with a > bracket.
+===> Most tags exist in pairs in HTML. Tags have an opening and closing part.
+===> They are similar, except the closing part has a / sign after the opening bracket.
+example:-<HTML>,<body>
+
+2.What are tags and attributes in HTML?
+===> All HTML elements can have attributes. Attributes provide additional information about elements.
+===> Learn What are the Elements, Tags, and Attributes in HTML While the elements tell the browser what to display, the attributes define how they will behave. 
+The tags mark the beginning and the end of an element.
+example:-<body bgcolor="red">type 
+
+3.What are void elements in HTML?
+===> A void element is an element whose content model never allows it to have contents under any circumstances. Void elements can have attributes.
+The following is a complete list of the void elements in HTML : area , base , br , col , command , embed , hr , img , input , keygen , link , meta , param , source , track , wbr.
+
+4.What are HTML Entities?
+===> Some characters are reserved in HTML. If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+===> Character entities are used to display reserved characters in HTML.
+example:- <	less than	&lt;
+          >	greater than &gt;
+
+5.What are different types of lists in HTML?
+===> There is 3 types of list
+  A.Order list
+  B.Unorder list
+  C.description list
+
+A.Order list
+  type to add order list:-1,A,a,I,i
+<ol>
+    <li>list 1</li>
+</ol>
+
+B.Unorder list
+  type to add unorder list:-circle,square,dice.
+<ul>
+    <li>list 1</li>
+</ul>
+
+C.description list
+<dl>
+    <dt>color</dt>
+    <dd>pink,black,blue,red</dd>
+</dl>
+
+6.What is the 'class' attribute in HTML?
+===> The class attribute specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet.
+However, it can also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class.
+===>Class attributes are attributes which are owned by the class itself. They will be shared by all the instances of the class.Therefore they have the same value for every instance.
+We define class attributes outside all the methods, usually they are placed at the top, right below the class header.
+
+7.What is the difference between the 'id' attribute and the 'class' attribute of HTML elements?
+===> Remember the difference between Class and ID: A Class name can be used by multiple HTML elements,
+while an ID name must only be used by one HTML element within the page.
+
+8.What are the various form atting tags in HTML?
+===>HTML Formatting Elements
+ <b> - Bold text.
+ <strong> - Important text.
+ <i> - Italic text.
+ <em> - Emphasized text.
+ <mark> - Marked text.
+ <small> - Smaller text.
+ <del> - Deleted text.
+ <ins> - Inserted text.
+
+9.How is cell padding different from cell spacing?
+===> Cellpadding basically defines the space present between a table cell's border and the content present in it.
+===> Cellspacing basically defines the space present between individual adjacent cells.
+
+10.How can we club two or more rows or columns into a single row or column in an HTML table?
+===> You can merge two or more table cells in a column using the colspan attribute in a <td> HTML tag (table data).
+To merge two or more row cells, use the rowspan attribute.
+ 
+11.What is  the difference between a block-level element and an inline element?
+===> Difference Between Inline and Block Elements in HTML
+===> Block elements always start from a new line. Inline elements never start from a new line. Block elements cover space from left to right as far as it can go.
+Inline elements only cover the space as bounded by the tags in the HTML element.
+
+12.How to create a Hyperlink in HTML?
+===> Example:-<a href="url">link text</a>
+1.Use the <a> element to define a link.
+2.Use the href attribute to define the link address.
+3.Use the target attribute to define where to open the linked document.
+4.Use the <img> element (inside <a> ) to use an image as a link.
+
+13.What is the use of an iframe tag?
+===> An inline frame (iframe) is a HTML element that loads another HTML page within the document.
+It essentially puts another webpage within the parent page. They are commonly used for advertisements, embedded videos, web analytics and interactive content.
+
+14.What is the use of a span tag? explain with example?
+===> example:-<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. 
+The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+
+15.How to insert a picture into a background image of web page?
+===> The most common & simple way to add background image is using the background image attribute inside the <body> tag.
+The background attribute which we specified in the <body> tag is not supported in HTML5. Using CSS properties, we can also add background image in a webpage.
+===> example:-
+<!DOCTYPE html>
+<html>
+<body background="edureka.png">
+<h1>Welcome to Edureka</h1>
+<p><a href="https://www.edureka.co">Edureka.co</a></p>
+</body>
+</html>
+
+16.How are active links different from normal links?
+===> By default, a link will appear like this (in all browsers): An unvisited link is underlined and blue.
+A visited link is underlined and purple. An active link is underlined and red.
+===> An unvisited link is underlined and blue.
+===> A visited link is underlined and purple.
+===> An active link is underlined and red.
+
+17.What are the different tags to separate sections of text?
+We separate a section of texts in HTML using the below tags:
+===> <br> tag – It is used to separate the line of text. It breaks the current line and shifts
+the flow of the text to a new line.
+===> <p> tag–This tag is used to write a paragraph of text.
+===> <blockquote> tag–This tag is used to define large quoted sections.
+
+18.What is SVG?
+===> SVG is used to define vector-based graphics for the Web · SVG is used to define vector-based graphics for the Web · 
+<html>
+<body>
+
+<h1>My first SVG</h1>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+</body>
+</html>
+
+19.What is difference between HTML and XHTML?
+===> HTML is the standard markup language for creating web pages, while XHTML is a stricter and more standardized version of HTML. 
+Both HTML and XHTML include a wide range of features, such as support for multimedia, styling, and scripting.
+
+20.What are logical and physical tags in HTML?
+===> The example of the logical tag is <strong> </strong> tag. When we enclose the text in the strong tag, 
+it tells the browser that enclosed text is more important than other texts. 
+Physical tags : Physical tags are used to tell the browser how to display the text enclosed in the physical tag.

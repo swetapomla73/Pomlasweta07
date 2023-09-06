@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::before{
+            content: "/1f606";
+        }
+        h1::after{
+            content: "/1f606";
+        }
+        .mydiv{
+            height: auto;
+            width: 250px;
+            border: 2px solid black;
+            padding: 15px;
+        }
+        .mydiv:first-line:{
+            color: red;
+        }
+        .mydiv::first-letter{
+            font-size: 30px;
+        }
+        .mydiv::selection{
+            background-color: black;
+            color: white;
+        }
+        li::marker{
+            color: crimson;
+        }
+        input::placeholder{
+            color: black;
+            font-size: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="mydiv">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea quae placeat, odit fugiat illo exercitationem facilis eaque veritatis accusamus saepe iure delectus ullam velit consequatur enim nemo. Ab, enim fugit!
+    </div>
+</body>
+</html>

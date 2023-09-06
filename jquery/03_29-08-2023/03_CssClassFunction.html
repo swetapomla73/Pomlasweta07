@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hd1{
+            font-size: 40px;
+            color: burlywood;
+            background-color: chocolate;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .hd2{
+            font-size: 40px;
+            color: blue;
+            background-color: palevioletred;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- there are 3 css class functions : (1) addClass (2) removeClass (3) toggleClass -->
+    <button id="btn1">Add claas</button>
+    <button id="btn2">Remove class</button>
+    <button id="btn3">Toggle class</button>
+    <hr>
+    <div class="head1">hello user</div>
+    <div class="head2">hello user</div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $(".head1").addClass("hd1")
+            })
+            $("#btn2").click(function () {
+                $(".head1").removeClass("hd1")
+            })
+            $("#btn3").click(function () {
+                $(".head2").toggleClass("hd2")
+            })
+        })
+    </script>
+        
+</body>
+</html>

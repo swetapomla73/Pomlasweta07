@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .main{
+       margin: 11%;
+       padding: 50px;
+       height: 250px;
+       width: 70%;
+       box-shadow: inset -1px 0px 20px 15px red;
+       border-radius: 50%;
+    }
+    .mydiv{
+        margin: auto;
+        height: 250px;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 3px;
+        text-align: center;
+        font-style: normal;
+    }
+    h1::after{
+        content: "";
+        height: 2px;
+        width: 50px;
+        background-color: blue;
+        display: inline-block;
+        margin: 7px 5px;
+        text-justify: auto;
+    }
+    h1::before{
+        content: "";
+        height: 2px;
+        width: 50px;
+        background-color: blue;
+        display: inline-block;
+        margin: 7px 5px;
+    }
+    .input1{
+        border: 2px solid black;
+        border-radius: 7px;
+        height: 30px;
+        width: 250px;
+    }
+    .input2{
+        border: 2px solid black;
+        border-radius: 7px;
+        height: 30px;
+        width: 250px;
+    }
+    button{
+        height: 35px;
+        width: 100px;
+        color: white;
+        background-color: blue;
+        border-radius: 7px;
+        font-size: 13px;
+        margin: 0;
+        
+    }   
+</style>
+<body>
+    <div class="main">
+        <div class="mydiv">
+            <h1>Login</h1>
+            <input class="input1" type="text" name="user" id="class" placeholder="Enter Email" required max lengh="10" minlength="5"><br><br>
+            <input class="input2" type="text" name="user" id="class" placeholder="Enter Password" required max lengh="10" minlength="5"><br><br>
+            <button>Login <i class="fa-solid fa-forward"></i></button>
+        </div>
+    </div>    
+</body>
+</html>

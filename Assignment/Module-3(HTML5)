@@ -1,0 +1,16 @@
+1.) What are the new tags added in HTML5?
+==> < dialog >	It represents a dialog box or other interactive components.
+==> < figcaption >	It defines caption for the < figure > element.
+==> < figure >	It defines a self-contained content, and referenced as a single unit.
+==> < footer >	It represents the footer section of the webpage.
+
+2.) How to embed audio and video in a webpage? 
+==> Create a new HTML file in the same directory, called index. html . Add < audio > and < video > elements to the page; make them display the default browser controls. Give both of them < source > elements so that browsers will find the audio format they support best and load it.
+
+3.) Semantic element in HTML5?
+==> A semantic element clearly describes its meaning to both the browser and the developer.
+==> Examples of non-semantic elements: < div > and < span > - Tells nothing about its content.
+==> Examples of semantic elements: < form >, < table >, and < article > - Clearly defines its content.
+
+4.) Canvas and SVG tags?
+==> The Scalable Vector Graphics (SVG) is an XML-based image format that is used to define two-dimensional vector-based graphics for the web. Unlike raster image (Ex .jpg, .gif, .png, etc.), a vector image can be scaled up or down to any extent without losing the image quality.

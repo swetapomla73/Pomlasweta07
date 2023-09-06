@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tran-m {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.tranEX.tran-p {
+    padding: 40px 0;
+}
+
+.tranEx .main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.tranEx .main img {
+    height: auto;
+    max-width: 100%;
+    border: 5px solid green;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px black;
+    transition: 1s all ease;
+}
+.tranEx .main .sub1:hover{
+    transform: scale(-0.5);
+    transition: 2s all ease;
+}
+.tranEx .main .sub2:hover{
+    transform: scalex(1.5);
+    transition: 2s all ease;
+}
+.tranEx .main .sub3:hover{
+    transform: scaley(0.5);
+    transition: 2s all ease;
+}
+.tranEx .main .sub4:hover{
+    transform: scaleX(1.2) scaleY(1.5) scaleZ(0.5);
+    transition: 2s all ease;
+}
+.tranEx .main .sub5:hover{
+    transform: scale3d(1.5, 1.5, 1.554);
+    transition: 2s all ease;
+}
+.tranEx .main .sub6:hover{
+    transform: rotate(180deg);
+    transition: 2s all ease;
+}
+.tranEx .main .sub7:hover{
+    transform: rotateX(180deg);
+    transition: 2s all ease;
+}
+.tranEx .main .sub8:hover{
+    transform: rotateY(180deg);
+    transition: 2s all ease;
+}
+
+/* ============= media query ======= */
+
+@media (max-width:576px) {
+    .tran-m {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tranEx .main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:576px) {
+    .tran-m {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .tranEx .main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:768px) {
+    .tran-m {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+}
+
+@media (min-width:992px) {
+    .tran-m {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    .tranEx .main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width:1200px) {
+    .tran-m {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+</style>
+<section class="tranEx">
+    <div class="tran-m">
+        <div class="tran-p">
+            <div class="main">
+                <div class="sub1">
+                    <img src="image10.jpg" alt="">
+                </div>
+                <div class="sub2">
+                    <img src="image11.jpg" alt="">
+                </div>
+                <div class="sub3">
+                    <img src="image12.jpg" alt="">
+                </div>
+                <div class="sub4">
+                    <img src="image13.jpg" alt="">
+                </div>
+                <div class="sub5">
+                    <img src="image14.jpg" alt="">
+                </div>
+                <div class="sub6">
+                    <img src="image15.jpg" alt="">
+                </div>
+                <div class="sub7">
+                    <img src="image16.jpg" alt="">
+                </div>
+                <div class="sub8">
+                    <img src="image17.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
