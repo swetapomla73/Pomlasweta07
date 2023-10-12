@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style-type: none; 
+}
+a{
+    text-decoration: none;
+}
+/* margin */
+.container {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.container-mar{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+/* padding */
+.padding-large {
+    padding: 60px 0px;
+}
+.padding-small {
+    padding: 20px 0px;
+}
+.pd {
+    padding-bottom: 20px;
+}
+
+/* header */
+header {
+    background-color: rgb(1, 26, 139);
+}
+
+header .header-flex {
+    display: flex;
+    align-items: center;
+}
+
+header .header-flex .nav {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header-flex .nav ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .header-flex .nav ul li {
+    padding: 10px;
+}
+
+header .header-flex .nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* ============== homepage ========= */
+.homepage {
+    background: url(images/banner.jpg) no-repeat center;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+.homepage::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5px;
+    z-index: -1;
+}
+.homepage .homepage-contant {
+    color: black;
+    width: 38%;
+    padding: 150px 0px;
+    margin: inherit;
+}
+.homepage .homepage-contant h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.homepage .homepage-contant h2 {
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.homepage .homepage-contant button {
+    height: 45px;
+    width: 150px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+/* homecontant */
+.gridEx h1{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+.grid-m {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.gridEx .grid-p {
+    padding: 40px 0px;
+}
+
+.gridEx .main {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.gridEx .main img {
+    height: auto;
+    max-width: 100%;
+}
+.gridEx .main .sub div {
+    align-items: center;
+}
